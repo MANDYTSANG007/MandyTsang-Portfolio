@@ -1,0 +1,2 @@
+DROP DATABASE IF EXIST mandy_db;
+CREATE DATABASE mandy_db;
