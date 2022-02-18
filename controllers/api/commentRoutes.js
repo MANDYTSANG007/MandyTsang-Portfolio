@@ -7,7 +7,7 @@ router.post('/', async (req, res) => {
     const commentData = await Comment.create({
     name: req.body.name,
     email: req.body.email,
-    comment: req.body.comment,
+    comment_text: req.body.comment_text,
   });
   // if the comment is successfully created, the new response will be returned as json
   res.status(200).json(commentData)
