@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Emmett Brown",
+        "email": "timemachine@gmail.com",
+        "comment": "I invented a time machine, let's go back to the future!"
+    },
+    {
+        "name": "Indiana Jones",
+        "email": "indy@gmail.com",
+        "comment": "Fly-yes, land-no."
+    },
+    {
+        "name": "Hermione Granger",
+        "email": "ilovetoread@gmail.com",
+        "comment": "Fear of a name only increases fear of the thing itself."
+    }
+]
