@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Perfect Cup",
+        "description": "A coffee app that promotes ingredient transparency.",
+        "tech": "JavaScript, Express, Sequelize, and Bcrypt"
+    },
+    {
+        "name": "The Developers Tech Blog",
+        "description": "A platform where developer can publish their blog posts.",
+        "tech": "JavaScript, Node.js, Express, MySQL, Express-session, and Sequelize."
+    },
+    {
+        "name": "MT Notebook",
+        "description": "A note-taking application that gives users options to create, save, and delete notes.",
+        "tech": "JavaScript, Node.js, and Express."
+    }
+]
