@@ -1,16 +1,16 @@
 const router = require('express').Router();
-const Comment = require('../../models');
+const {Contact} = require('../../models');
 
-// route to create/add a comment using async/await
+// route to create/add a contact using async/await
 router.post('/', async (req, res) => {
   try { 
-    const commentData = await Comment.create({
+    const contactData = await Contact.create({
     name: req.body.name,
     email: req.body.email,
     comment_text: req.body.comment_text,
   });
-  // if the comment is successfully created, the new response will be returned as json
-  res.status(200).json(commentData)
+  // if the contact is successfully created, the new response will be returned as json
+  res.status(200).json(contactData)
 } catch (err) {
   res.status(400).json(err);
 }
