@@ -29,7 +29,7 @@ This portfolio website will present my ability on building creative and stimulat
 
 ## Design Layout
 
-![alt text](#)
+![alt text](./img/portfolio-T3.gif)
 
 
 ## Author
