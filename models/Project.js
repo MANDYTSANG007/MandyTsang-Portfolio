@@ -19,6 +19,15 @@ Project.init(
         },
         tech: {
             type: DataTypes.STRING
+        },
+        deployed_url: {
+            type: DataTypes.STRING
+        },
+        repo_url: {
+            type: DataTypes.STRING
+        },
+        image: {
+            type: DataTypes.STRING
         }
     },
     {

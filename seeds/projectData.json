@@ -2,16 +2,25 @@
     {
         "title": "Perfect Cup",
         "description": "A coffee app that promotes ingredient transparency.",
-        "tech": "JavaScript, Express, Sequelize, and Bcrypt"
+        "tech": "JavaScript, Express, Sequelize, and Bcrypt",
+        "deployed_url": "https://powerful-wildwood-54385.herokuapp.com",
+        "repo_url":"https://github.com/MChambersIV/Perfect-Cup",
+        "image": "/img/Perfect-Cup.gif"
     },
     {
         "title": "The Developers Tech Blog",
         "description": "A platform where developer can publish their blog posts.",
-        "tech": "JavaScript, Node.js, Express, MySQL, Express-session, and Sequelize."
+        "tech": "JavaScript, Node.js, Express, MySQL, Express-session, and Sequelize.",
+        "deployed_url": "https://mandyblogapp.herokuapp.com",
+        "repo_url":"https://github.com/MANDYTSANG007/Developers-Tech-Blog",
+        "image": "/img/Developers-Tech-Blog.gif"
     },
     {
         "title": "MT Notebook",
         "description": "A note-taking application that gives users options to create, save, and delete notes.",
-        "tech": "JavaScript, Node.js, and Express."
+        "tech": "JavaScript, Node.js, and Express.",
+        "deployed_url": "https://hmt-notebook.herokuapp.com/notes",
+        "repo_url":"https://github.com/MANDYTSANG007/MT-Notebook",
+        "image": "/img/MT-Notebook.gif"
     }
 ]

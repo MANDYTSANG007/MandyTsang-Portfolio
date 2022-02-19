@@ -10,16 +10,19 @@ router.get('/', async (req, res) => {
         // Serialize data for template
         const contact = contactData.map((contacts) => contacts.get({ plain: true }));
         console.log(contact);
+        const projectData = await Project.findAll({
+        });
+        const projects = projectData.map((projects) => projects.get({ plain: true }));
         // Pass serialized data and session flag into template
         res.render('homepage', {
-            contact,
+            contact, projects
         });
     } catch (err){
         res.status(500).json(err);
     }
 });
 
-router.get('/', async (req, res) => {
+router.get('/api', async (req, res) => {
     try {
         const projectData = await Project.findAll({
             attributes: ['project_id', 'title', 'description', 'tech'],
@@ -28,9 +31,7 @@ router.get('/', async (req, res) => {
         const project = projectData.map((projects) => projects.get({ plain: true }));
         console.log(project);
         // Pass serialized data and session flag into template
-        res.render('homepage', {
-            project,
-        });
+        res.render('homepage', {project});
     } catch (err){
         res.status(500).json(err);
     }
