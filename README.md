@@ -33,7 +33,7 @@ This portfolio website will present my ability on building creative and stimulat
 
 
 ## Author
-* **Mandy Tsang**
+**Mandy Tsang**
 
 - [Github](https://github.com/MANDYTSANG007)
 - [LinkedIn](https://www.linkedin.com/in/man-tsang-64308b22a/)
