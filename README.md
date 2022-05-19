@@ -10,7 +10,7 @@ This portfolio website will present my ability on building creative and stimulat
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Bootstrap](https://getbootstrap.com/)
-* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Node.js](https://nodejs.org/en/)
 * [Express](https://expressjs.com)
 * [Express-session](https://www.npmjs.com/package/express-session)
