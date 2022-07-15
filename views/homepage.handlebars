@@ -1,36 +1,37 @@
-   <h2 class="d-flex justify-content-center" id="projects">Projects</h2>
-   <div class="container mt-5">
-      {{#each projects as |project|}}
-      <div>
-         <div>Title: {{project.title}}</div>
-         <div>Description: {{description}}</div>
-         <div>Tech used: {{tech}}</div>
-         <div><a href="{{project.deployed_url}}" target="_blank">Deployed Link: {{project.deployed_url}}</a></div>
-         <div><a href="{{project.repo_url}}" target="_blank">Repo Link: {{project.repo_url}}</a></div>
-         <img src="{{project.image}}" />
-         
-         <hr />
-      </div>
-      {{/each}}
+<h2 class="d-flex justify-content-center" id="projects">Projects</h2>
+<div class="container mt-5">
+   {{#each projects as |project|}}
+   <div>
+      <div>Title: {{project.title}}</div>
+      <div>Description: {{description}}</div>
+      <div>Tech used: {{tech}}</div>
+      <div><a href="{{project.deployed_url}}" target="_blank">Deployed Link: {{project.deployed_url}}</a></div>
+      <div><a href="{{project.repo_url}}" target="_blank">Repo Link: {{project.repo_url}}</a></div>
+      <img src="{{project.image}}" />
+
+      <hr />
    </div>
-   <div class="add-contact-container">
+   {{/each}}
+</div>
+<div class="add-contact-container">
    <h2>
       CONTACT
    </h2>
-   <form>
-   <div class="form-group">
-      <label for="name">Name (Required)</label>
-      <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="">
-   </div>
-   <div class="form-group">
-      <label for="email">Email (Required)</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-   </div>
-   <div class="form-group">
-      <label for="comment">Comment (Required)</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-   </div>
+   <form class="new-contact-form">
+      <div class="form-group">
+         <label for="name">Name (Required)</label>
+         <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="">
+      </div>
+      <div class="form-group">
+         <label for="email">Email (Required)</label>
+         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+      </div>
+      <div class="form-group">
+         <label for="comment">Comment (Required)</label>
+         <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+      </div>
       <button class="btn btn-primary" type="submit">Submit form</button>
-      <br/>
-      <br/>
+      <br />
+      <br />
    </form>
+</div>
